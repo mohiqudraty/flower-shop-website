@@ -11,7 +11,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 30px;
+  padding: 25px 110px;
   background-color: #e554731a;
 }
 .menus {
@@ -36,27 +36,29 @@
   font-weight: 600;
 }
 /* end navbar style  */
+
 /* start banner style  */
 .banner-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  padding: 110px 0 0;
+  padding: 100px 0 0;
   /* height: 100vh; */
   background-color: #f2bdc8d2;
   gap: 20px;
 }
 .shop-info {
-  width: 500px;
+  width: 600px;
 }
 .shop-title {
-  font-size: 50px;
+  font-size: 60px;
+  font-weight: 900;
 }
 .shop-description {
   font-size: 20px;
   margin: 20px 0;
-  color: rgb(76, 72, 72);
+  color: #636060;
 }
 .btn {
   padding: 20px 40px;
@@ -77,4 +79,69 @@
   margin-bottom: -6px;
 }
 
-/* start navbar style  */
+/* end banner style  */
+
+/* start featured style  */
+.our-featured-container {
+  width: 90%;
+  margin: 100px auto;
+}
+.featured-info {
+  text-align: center;
+  margin-top: 100px 0;
+}
+.featured-title {
+  font-size: 30px;
+  margin: 20px 0;
+}
+.featured-description {
+  width: 500px;
+  margin: 30px auto;
+  color: #636060;
+}
+.featured-photos-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.photos-bg1 {
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  background-color: #e880b23c;
+  background-image: url("./Flower\ Asset/pink-flower.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  border-radius: 200px 200px 0 0;
+}
+
+.photos-bg2 {
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  background-color: #0597a026;
+  background-image: url("./Flower\ Asset/flower-bundle.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 200px 200px 0 0;
+}
+.photos-bg3 {
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  background-color: #477d1126;
+  background-image: url("./Flower\ Asset/yellow-flower.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  border-radius: 200px 200px 0 0;
+}
+.flower-name {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 20px;
+  color: #636060;
+  font-size: 20px;
+  font-weight: 700;
+}
+/* end featured style  */
