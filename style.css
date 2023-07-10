@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Work Sans", sans-serif;
+  font-family: "Crimson Text", serif;
+  font-family: "Poppins", sans-serif;
+}
+/* start navbar style  */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: #e554731a;
+}
+.menus {
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  font-size: 25px;
+  font-weight: 700;
+  margin-left: 40px;
+}
+.logos-color {
+  color: #e55473;
+}
+.menu {
+  list-style: none;
+}
+.menu a {
+  text-decoration: none;
+  margin-right: 40px;
+  color: black;
+  font-weight: 600;
+}
+/* end navbar style  */
+/* start banner style  */
+.banner-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 110px 0 0;
+  /* height: 100vh; */
+  background-color: #f2bdc8d2;
+  gap: 20px;
+}
+.shop-info {
+  width: 500px;
+}
+.shop-title {
+  font-size: 50px;
+}
+.shop-description {
+  font-size: 20px;
+  margin: 20px 0;
+  color: rgb(76, 72, 72);
+}
+.btn {
+  padding: 20px 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #e55473;
+  font-size: 20px;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+.banner-photo {
+  width: 500px;
+}
+.banner-photo img {
+  width: 100%;
+  margin-bottom: -6px;
+}
+
+/* start navbar style  */
