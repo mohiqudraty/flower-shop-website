@@ -146,6 +146,22 @@
   font-weight: 700;
 }
 /* end featured style  */
+/* start support section style  */
+.support-container {
+  width: 75%;
+  margin: 100px auto;
+  height: 300px;
+  background-color: #3231310d;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.support p {
+  color: #636060;
+  margin-top: 20px;
+}
+/* end support section style  */
 /* start hot deal style  */
 .hot-deal-container {
   width: 100%;
