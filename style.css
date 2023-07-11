@@ -45,7 +45,7 @@
   width: 100%;
   padding: 100px 0 0;
   /* height: 100vh; */
-  background-color: #f2bdc8d2;
+  background-color: #f1c9d1be;
   gap: 20px;
 }
 .shop-info {
@@ -165,7 +165,7 @@
 /* start hot deal style  */
 .hot-deal-container {
   width: 100%;
-  background-color: #f2bdc8d2;
+  background-color: #f1c9d1be;
   display: flex;
   justify-content: center;
   align-items: center;
