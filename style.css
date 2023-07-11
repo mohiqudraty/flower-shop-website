@@ -13,6 +13,7 @@
   align-items: center;
   padding: 25px 110px;
   background-color: #e554731a;
+  border-bottom: 1px solid #9a9191be;
 }
 .menus {
   display: flex;
@@ -271,6 +272,8 @@
   font-size: 13px;
   font-weight: 400;
   color: lightgray;
+  border-top: 1px solid lightgray;
+  padding-top: 20px;
 }
 
 /* end footer style  */
